@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+.grid-container {
+	margin:20px;
+	display: grid;
+	padding: 10px;
+	grid-template-columns: auto auto auto;
+}
+.grid-item {
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+.flex-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
